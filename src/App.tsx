@@ -15,7 +15,6 @@ function App() {
       <Header />
       <Container>
        <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
         <Route path="Buttons" element={<Buttons />} />
         <Route path="DSalurabook" element={<DSalurabook />} />
         <Route path="*" element={<NotFound />} />
