@@ -1,6 +1,6 @@
 .NotFound {
     background: #FFFFFF;
-    min-height: 85vh;
+    min-height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,24 @@
     flex-direction: column;
 }
 
-.NotFound__message-title {
-    margin: 2%;
-}
-
 .NotFound__message-body {
     font-weight: 600;
 }
 
 
+.NotFound__animation--penguin > div {
+    height: 30vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotFound__animation--arrow > div {
+    height: 30vh;
+    z-index: 10;
+    position: absolute;
+    left: 77%;
+    top: 90px;
+    transform: rotate(245deg);
+}
