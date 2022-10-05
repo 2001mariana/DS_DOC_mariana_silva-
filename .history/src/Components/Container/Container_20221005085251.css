@@ -1,0 +1,7 @@
+.Container {
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 84%;
+    margin: 0 auto;
+    padding: 1%;
+}
