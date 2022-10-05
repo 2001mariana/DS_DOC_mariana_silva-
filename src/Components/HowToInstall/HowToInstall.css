@@ -1,0 +1,13 @@
+.HowToInstall {
+    box-shadow: #0000001a 0px 10px 50px;
+    border: 1px solid #0000001a;
+    border-radius: 14px;
+    width: 40%;
+    height: 80px;
+    font-size: 16px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+}

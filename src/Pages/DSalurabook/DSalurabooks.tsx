@@ -10,7 +10,8 @@ function DSalurabook() {
 
   return (
     <div className="DSalurabook">
-      <p>Componentes criados para desenvolvimento do sistema alurabook durante um curso da Alura. Por isso todos iniciam-se com AB.</p>
+      <br />
+      <h4>Componentes criados para desenvolvimento do sistema alurabook durante um curso da Alura. Por isso todos iniciam-se com AB.</h4>
 
     <ComponentVariable
       title='Variações do ABbutton'

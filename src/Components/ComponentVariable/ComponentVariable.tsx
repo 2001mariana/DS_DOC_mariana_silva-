@@ -1,4 +1,5 @@
 import { ReactNode } from "react"
+import './index.css'
 
 export interface ComponentVariableProps {
     title?: string
@@ -8,7 +9,7 @@ export interface ComponentVariableProps {
 
 const ComponentVariable = ({title, subtitle, children}: ComponentVariableProps) => {
     return (
-    <div>
+    <div className="ComponentVariable">
         <h2>{title}</h2>
         <p>{subtitle}</p>
         {children}
