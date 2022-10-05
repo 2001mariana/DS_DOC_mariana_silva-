@@ -1,6 +1,7 @@
 <h1 align="center"> designsystem-marianasilva </h1>
 
-![Logo do desygnsystem-marianasilva](./public/m.png)
+<div align="center">![Logo do desygnsystem-marianasilva](./public/m.png)</div>
+
 
 <h1> Detalhes de uso e componentes: </h1>
 <a href="https://designsystem-marianasilva.netlify.app/">https://designsystem-marianasilva.netlify.app/</a>
