@@ -5,6 +5,9 @@
 <h1> Detalhes de uso e componentes: </h1>
 <a href="https://designsystem-marianasilva.netlify.app/">https://designsystem-marianasilva.netlify.app/</a>
 
+<h3>Contato pelo linkedind:</h3>
+<a href="https://www.linkedin.com/in/mariana-luiza-46bb641b7">https://www.linkedin.com/in/mariana-luiza-46bb641b7</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
