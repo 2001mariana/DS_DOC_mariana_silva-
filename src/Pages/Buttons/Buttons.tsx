@@ -1,11 +1,11 @@
 import {  ButtonBlack, ButtonBlue, ButtonDanger, ButtonGreen, ButtonLed, ButtonPink, ButtonYellow } from 'designsystem-marianasilva';
+import ComponentVariable from '../../Components/ComponentVariable';
 
-import ComponentVariable from '../../../Components/ComponentVariable/ComponentVariable';
 
-function Home() {
+function Buttons() {
 
   return (
-    <div className="Home">
+    <div className="Buttons">
     <ComponentVariable
       title='Variações do ButtonBlue'
       subtitle='<ButtonBlue label="custom text"  size="small" | "medium" | "large" variant="outlined" | "solid" />'
@@ -135,4 +135,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Buttons;

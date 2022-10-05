@@ -1,0 +1,19 @@
+.NotFound {
+    background: #FFFFFF;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.NotFound__message-title {
+    margin: 2%;
+}
+
+.NotFound__message-body {
+    font-weight: 600;
+}
+
+

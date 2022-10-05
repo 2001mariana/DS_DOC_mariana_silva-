@@ -1,10 +1,11 @@
 import './App.css';
-import Home from './Pages/Home/Home/Home';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import DSalurabook from './DSalurabook';
+import DSalurabook from './Pages/DSalurabook/DSalurabooks';
 import Container from './Components/Container';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer';
+import Buttons from './Pages/Buttons';
+import NotFound from './Pages/NotFound';
 
 function App() {
 
@@ -14,8 +15,10 @@ function App() {
       <Header />
       <Container>
        <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="Buttons" element={<Buttons />} />
         <Route path="DSalurabook" element={<DSalurabook />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       </Container>
       <Footer />

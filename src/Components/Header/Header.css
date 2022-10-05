@@ -1,13 +1,44 @@
 .Header {
     background-color: #000000;
     color: #FFFFFF;
-    text-shadow: 0 0 12px #fc53f4, 0 0 8px #c922a8;
     box-shadow: #1a1f24de 0px 20px 40px -10px;
-    margin: 0;
     height: 90px;
-    display: flex;
     text-align: center;
-    justify-content: center;
+    
+}
+
+.Header__container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 35px;
+    width: 90%;
+    padding-top: 1%;
+    margin: 0 auto;
+}
+
+.Header__name {
+    text-shadow: 0 0 20px #fc53f4, 0 0 18px #c922a8;
+}
+
+.Header__links {
+    display: flex;
+}
+
+.Header__links li {
+    list-style: none;
+    text-align: end;
+    padding: 9px;
+}
+
+.Menu__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+}
+
+.Menu__link--active {
+      color: #fc53f4;
+      font-weight: bold;
+      text-decoration: none;
 }

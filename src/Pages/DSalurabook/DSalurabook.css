@@ -1,0 +1,41 @@
+.DSalurabook__ABCard {
+    background-color: #150e3b;
+}
+
+.DSalurabook__ABCard--component {
+    padding: 12px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.DSalurabook__ABInputQuant {    
+    display: flex;
+}
+
+.DSalurabook__ABInputQuant--component {
+    margin-left: 25%;
+    width: 30%;
+}
+
+.DSalurabook__ABInputQuant--image {
+    border-radius: 4px;
+    height: 85px;
+    width: 280px;
+    background-image: url(../../assets/images/example-ABInputQuant.PNG);
+}
+
+.DSalurabook__ABOptionGroup {
+    display: flex;
+}
+
+.DSalurabook__ABOptionGroup--component {
+    margin-left: 20%;
+    width: 30%;
+}
+
+.DSalurabook__ABOptionGroup--image {
+    border-radius: 4px;
+    height: 570px;
+    width: 420px;
+    background-image: url(../../assets/images/example-ABOptionGroup.PNG);
+}
