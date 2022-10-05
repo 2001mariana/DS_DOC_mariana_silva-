@@ -1,6 +1,6 @@
 <h1 align="center"> designsystem-marianasilva </h1>
 
-<div align="center">![Logo do desygnsystem-marianasilva](./public/m.png)</div>
+![Logo do desygnsystem-marianasilva](./public/m.png)
 
 
 <h1> Detalhes de uso e componentes: </h1>
