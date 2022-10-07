@@ -6,7 +6,7 @@
 
 .App {
   text-align: center;  
-  background-image: linear-gradient(50deg,#81B9EC20 ,#81B9EC20), url(../src/assets/images/background-zebra.png);
+  background-image: linear-gradient(50deg,#00000060 ,#00000060), url(../src/assets/images/background-zebra.png);
 }
 
 html, body, div, span, applet, object, iframe, code,

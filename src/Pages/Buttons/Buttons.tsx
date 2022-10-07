@@ -1,11 +1,23 @@
-import {  ButtonBlack, ButtonBlue, ButtonDanger, ButtonGreen, ButtonLed, ButtonPink, ButtonYellow } from 'designsystem-marianasilva';
-import ComponentVariable from '../../Components/ComponentVariable';
+import { ButtonBlack, ButtonBlue, ButtonBlueLed, ButtonDanger, ButtonGreen, ButtonGreenLed, ButtonLed, ButtonPink, ButtonPinkLed, ButtonYellow, ButtonYellowLed } from 'designsystem-marianasilva';
 
+import ComponentVariable from '../../Components/ComponentVariable';
 
 function Buttons() {
 
   return (
     <div className="Buttons">
+         
+    <ComponentVariable
+      title='Variações do ButtonLed'
+      subtitle='<ButtonLed label="custom text" size="small" | "medium" | "large" />'
+    >
+      <div className='test'>
+        <ButtonLed label='custom text' size='small' />
+        <ButtonLed label='custom text' size='medium' />
+        <ButtonLed label='custom text' size='large' />
+      </div><br /><br />
+    </ComponentVariable>
+
     <ComponentVariable
       title='Variações do ButtonBlue'
       subtitle='<ButtonBlue label="custom text"  size="small" | "medium" | "large" variant="outlined" | "solid" />'
@@ -21,6 +33,24 @@ function Buttons() {
         <ButtonBlue label='custom text' size='medium' variant='solid' />
         <ButtonBlue label='custom text' size='large' variant='solid' />
       </div>
+    </ComponentVariable>
+
+    <ComponentVariable 
+        title='Variações do ButtonBlueLed' 
+        subtitle='<ButtonBlueLed label="custom text"  size="small" | "medium" | "large" intensity="light" | "dark" />'
+    >
+
+    <div className='test'>
+      <ButtonBlueLed label='custom text' size='small' intensity='dark' />
+      <ButtonBlueLed label='custom text' size='medium' intensity='dark' />
+      <ButtonBlueLed label='custom text' size='large' intensity='dark' />
+    </div>
+
+    <div className='test'>
+      <ButtonBlueLed label='custom text' size='small' intensity='light' />
+      <ButtonBlueLed label='custom text' size='medium' intensity='light' />
+      <ButtonBlueLed label='custom text' size='large' intensity='light' />
+    </div>
     </ComponentVariable>
       
     <ComponentVariable
@@ -50,7 +80,25 @@ function Buttons() {
         <ButtonPink label='custom text' size='medium' variant='solid' intensity='light' />
         <ButtonPink label='custom text' size='large' variant='solid' intensity='light' />
       </div>
-    </ComponentVariable>     
+    </ComponentVariable>    
+
+    <ComponentVariable 
+      title='Variações do ButtonPinkLed' 
+      subtitle='<ButtonPinkLed label="custom text"  size="small" | "medium" | "large" intensity="light" | "dark" />'
+    >
+
+    <div className='test'>
+      <ButtonPinkLed label='custom text' size='small' intensity='dark' />
+      <ButtonPinkLed label='custom text' size='medium' intensity='dark' />
+      <ButtonPinkLed label='custom text' size='large' intensity='dark' />
+    </div>
+
+    <div className='test'>
+      <ButtonPinkLed label='custom text' size='small' intensity='light' />
+      <ButtonPinkLed label='custom text' size='medium' intensity='light' />
+      <ButtonPinkLed label='custom text' size='large' intensity='light' />
+    </div>
+    </ComponentVariable> 
 
     <ComponentVariable
       title='Variações do ButtonBlack'
@@ -68,17 +116,7 @@ function Buttons() {
         <ButtonBlack label='custom text' size='large' variant='solid' />
       </div>
     </ComponentVariable>
-      
-    <ComponentVariable
-      title='Variações do ButtonLed'
-      subtitle='<ButtonLed label="custom text" size="small" | "medium" | "large" />'
-    >
-      <div className='test'>
-        <ButtonLed label='custom text' size='small' />
-        <ButtonLed label='custom text' size='medium' />
-        <ButtonLed label='custom text' size='large' />
-      </div>
-    </ComponentVariable>
+
 
     <ComponentVariable 
       title='Variações do ButtonDanger' 
@@ -113,6 +151,24 @@ function Buttons() {
         <ButtonYellow label='custom text' size='large' variant='solid' />
       </div>  
     </ComponentVariable>
+
+    <ComponentVariable 
+        title='Variações do ButtonYellowLed' 
+        subtitle='<ButtonYellowLed label="custom text"  size="small" | "medium" | "large" intensity="light" | "dark" />'
+    >
+
+    <div className='test'>
+      <ButtonYellowLed label='custom text' size='small' intensity='dark' />
+      <ButtonYellowLed label='custom text' size='medium' intensity='dark' />
+      <ButtonYellowLed label='custom text' size='large' intensity='dark' />
+    </div>
+
+    <div className='test'>
+      <ButtonYellowLed label='custom text' size='small' intensity='light' />
+      <ButtonYellowLed label='custom text' size='medium' intensity='light' />
+      <ButtonYellowLed label='custom text' size='large' intensity='light' />
+    </div>
+    </ComponentVariable>
           
 
     <ComponentVariable
@@ -131,6 +187,27 @@ function Buttons() {
         <ButtonGreen label='custom text' size='large' variant='solid' />
       </div>
     </ComponentVariable>
+
+    
+    <ComponentVariable 
+        title='Variações do ButtonGreenLed' 
+        subtitle='<ButtonGreenLed label="custom text"  size="small" | "medium" | "large" intensity="light" | "dark" />'
+    >
+
+    <div className='test'>
+      <ButtonGreenLed label='custom text' size='small' intensity='dark' />
+      <ButtonGreenLed label='custom text' size='medium' intensity='dark' />
+      <ButtonGreenLed label='custom text' size='large' intensity='dark' />
+    </div>
+
+    <div className='test'>
+      <ButtonGreenLed label='custom text' size='small' intensity='light' />
+      <ButtonGreenLed label='custom text' size='medium' intensity='light' />
+      <ButtonGreenLed label='custom text' size='large' intensity='light' />
+    </div>
+    </ComponentVariable>
+    
+
     </div>
   );
 }

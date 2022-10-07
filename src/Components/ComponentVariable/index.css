@@ -1,7 +1,8 @@
 .ComponentVariable {
+    background-color: #F5F5F5;
     margin: 6% 0;
     border-radius: 18px;
     padding: 2%;
-    box-shadow: #0000001a 0px 10px 50px;
+    box-shadow: #00000060 0px 10px 40px;
     border: 1px solid #0000001a;
 }
