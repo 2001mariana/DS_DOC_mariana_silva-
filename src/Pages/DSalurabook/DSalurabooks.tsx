@@ -1,10 +1,11 @@
 import { ABbutton, ABInput, AbInputQuant, ABOptionGroup, ABTag } from 'designsystem-marianasilva';
-import { useState } from 'react';
-import ComponentVariable from '../../Components/ComponentVariable/ComponentVariable';
 import { Card } from 'designsystem-marianasilva';
+import { useState } from 'react';
+
+import ComponentVariable from '../../Components/ComponentVariable/ComponentVariable';
+import HowToInstall from '../../Components/HowToInstall';
 
 import './DSalurabook.css'
-import HowToInstall from '../../Components/HowToInstall';
 
 function DSalurabook() {
   const [inpuState, setInputState] = useState<string>('')
@@ -14,7 +15,10 @@ function DSalurabook() {
       
     <HowToInstall />
       <br />
-      <h4>Componentes criados para desenvolvimento do sistema alurabook durante um curso da Alura. Por isso todos iniciam-se com AB.</h4>
+      <p className='DSalurabook--description'>
+          Os ABcomponents foram criados para desenvolvimento do sistema alurabook durante um curso da Alura.
+          Iniciam-se com AB para distinguir dos demais componentes que foram criados e estilizados a partir da minha imaginação e iniciativa.
+      </p>
 
     <ComponentVariable
       title='Variações do ABbutton'
