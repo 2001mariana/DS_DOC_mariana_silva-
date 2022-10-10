@@ -1,5 +1,4 @@
 import { ReactNode } from "react"
-import HowToInstall from "../HowToInstall";
 import './Container.css';
 
 declare interface ContainerProps {
@@ -8,7 +7,6 @@ declare interface ContainerProps {
 
 const Container = ({children}: ContainerProps) => (
     <div className="Container">
-        <HowToInstall />
         {children}
     </div>)
 

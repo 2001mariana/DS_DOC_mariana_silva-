@@ -1,11 +1,14 @@
 import { ButtonBlack, ButtonBlue, ButtonBlueLed, ButtonDanger, ButtonGreen, ButtonGreenLed, ButtonLed, ButtonPink, ButtonPinkLed, ButtonYellow, ButtonYellowLed } from 'designsystem-marianasilva';
 
 import ComponentVariable from '../../Components/ComponentVariable';
+import HowToInstall from '../../Components/HowToInstall';
 
 function Buttons() {
 
   return (
     <div className="Buttons">
+      
+    <HowToInstall />
          
     <ComponentVariable
       title='Variações do ButtonLed'

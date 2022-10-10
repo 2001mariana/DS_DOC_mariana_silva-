@@ -4,12 +4,15 @@ import ComponentVariable from '../../Components/ComponentVariable/ComponentVaria
 import { Card } from 'designsystem-marianasilva';
 
 import './DSalurabook.css'
+import HowToInstall from '../../Components/HowToInstall';
 
 function DSalurabook() {
   const [inpuState, setInputState] = useState<string>('')
 
   return (
     <div className="DSalurabook">
+      
+    <HowToInstall />
       <br />
       <h4>Componentes criados para desenvolvimento do sistema alurabook durante um curso da Alura. Por isso todos iniciam-se com AB.</h4>
 
