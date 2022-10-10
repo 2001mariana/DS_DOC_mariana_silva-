@@ -1,4 +1,4 @@
-import { ButtonBlack, ButtonBlue, ButtonBlueLed, ButtonDanger, ButtonGreen, ButtonGreenLed, ButtonLed, ButtonPink, ButtonPinkLed, ButtonYellow, ButtonYellowLed } from 'designsystem-marianasilva';
+import { ButtonBlack, ButtonBlue, ButtonBlueLed, ButtonDanger, ButtonGreen, ButtonGreenLed, ButtonLed, ButtonPink, ButtonPinkLed, ButtonRainbow, ButtonYellow, ButtonYellowLed } from 'designsystem-marianasilva';
 
 import ComponentVariable from '../../Components/ComponentVariable';
 import HowToInstall from '../../Components/HowToInstall';
@@ -9,6 +9,17 @@ function Buttons() {
     <div className="Buttons">
       
     <HowToInstall />
+
+    <ComponentVariable
+      title='Variações do ButtonRainbow'
+      subtitle='<ButtonRainbow label="custom text" size="small" | "medium" | "large" />'
+    >
+      <div className='test'>
+        <ButtonRainbow label='custom text' size='small' />
+        <ButtonRainbow label='custom text' size='medium' />
+        <ButtonRainbow label='custom text' size='large' />
+      </div><br /><br />
+    </ComponentVariable>
          
     <ComponentVariable
       title='Variações do ButtonLed'
