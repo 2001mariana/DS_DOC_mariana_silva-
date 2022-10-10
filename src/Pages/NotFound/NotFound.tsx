@@ -16,14 +16,17 @@ const NotFound = () => {
         <HowToInstall />
       </div>
       <div className='NotFound'>
-        <div className="NotFound__message">
+        <div>
+         <div className="NotFound__message">
             <h2 className="NotFound__message-title">Que bom ter você aqui!</h2>
             <p className="NotFound__message-body">Escolha um dos itens para continuar.</p>
         </div>
         
         <div className="NotFound__animation--penguin">
             <Lottie animationData={NotFoundAnimation} loop={true} />
+        </div> 
         </div>
+        
       </div>
     </div></>
     )

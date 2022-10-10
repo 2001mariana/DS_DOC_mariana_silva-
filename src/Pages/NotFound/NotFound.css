@@ -1,31 +1,35 @@
 .NotFound {
     background: #F5F5F5;
-    min-height: 75vh;
-    margin: 3% auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    min-height: 55vh;
     width: 40%;
     border-radius: 50%;
     box-shadow: #00000060 0px 0px 16px;
     border: 1px solid #0000001a;
+    
 }
 
 .NotFound__howToInstall {
     width: 45%;
-    padding-top: 15%;
+    margin-right: 3%;
 }
 
 .NotFound__howToInstall .HowToInstall--copy {
-    /* box-shadow: none; */
     width: 80%;
 }
 
 
 .NotFound__container {
     display: flex;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .NotFound__message-body {
