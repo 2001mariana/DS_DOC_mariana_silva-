@@ -3,7 +3,7 @@
     color: #FFFFFF;
     box-shadow: #1a1f24de 0px 20px 40px -10px;
     height: 90px;
-    text-align: center;   
+    display: flex;
 }
 
 .Header__container {
@@ -11,13 +11,22 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    padding-top: 1%;
     margin: 0 auto;
 }
 
 .Header__name {
+    color: #FFFFFF;
     text-shadow: 0 0 20px #fc53f4, 0 0 18px #c922a8;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    font-size: 1.4rem;
 }
+
+.Header__name:hover {
+    cursor: pointer;
+}
+
 
 .Header__links {
     display: flex;

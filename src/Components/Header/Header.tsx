@@ -6,7 +6,12 @@ const Header = () => {
     return (
         <header className='Header'>
             <div className='Header__container'>
-                <h2 className='Header__name'>Design System - Mariana Silva</h2>
+                <NavLink
+                    className='Header__name'
+                    to=""
+                >
+                    Design System - Mariana Silva
+                </NavLink>
                 <div className='Header__links'>                
                 <li className="Menu__item">
                     <NavLink
