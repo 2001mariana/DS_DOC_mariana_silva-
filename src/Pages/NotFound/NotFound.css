@@ -1,5 +1,4 @@
 .NotFound {
-    background: #F5F5F5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,14 +7,6 @@
     min-height: 55vh;
     width: 40%;
     border-radius: 50%;
-    box-shadow: #00000060 0px 0px 16px;
-    border: 1px solid #0000001a;
-    
-}
-
-.NotFound__howToInstall {
-    width: 45%;
-    margin-right: 3%;
 }
 
 .NotFound__howToInstall .HowToInstall--copy {
@@ -36,7 +27,6 @@
     font-weight: 600;
 }
 
-
 .NotFound__animation--penguin > div {
     height: 15vh;
     z-index: 10;
@@ -46,11 +36,10 @@
 }
 
 .NotFound__animation--arrow > div {
-    height: 20vh;
+    height: 12vh;
     z-index: 10;
     position: absolute;
-    left: 80%;
+    left: 82%;
     top: 90px;
     transform: rotate(245deg);
 }
-

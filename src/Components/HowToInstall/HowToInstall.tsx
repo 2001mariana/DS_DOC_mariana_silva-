@@ -44,11 +44,11 @@ const HowToInstall = () => {
 
     return (
         <div className='HowToInstall'>
-        <span className="HowToInstall--span">{messageCopy}</span>
         <div className="HowToInstall--copy" 
             onClick={copyToClipboard} 
             onMouseOut={clearMessage}
         >
+          <span className="HowToInstall--span">{messageCopy}</span>
           {messageComandCopy}
         </div>
         </div>

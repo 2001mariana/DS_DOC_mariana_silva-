@@ -5,28 +5,33 @@
 .HowToInstall--copy {
     background-color: #FFFFFF;
     box-shadow: #00000050 0px 5px 40px;
-    border: 1px solid #00000020;
+    border: 1px solid #af11ed30;
+    box-shadow: #af11ed30 0px 10px 40px;
     border-radius: 14px;
     width: 40%;
     height: 80px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;   
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     cursor: pointer;
     font-weight: 600;
+    color: #a21ad8;
+    gap: 10px;
 }
 
 .HowToInstall--copy:hover {    
-    border: 1px solid #00000030;
-    box-shadow: #00000050 0px 10px 40px;
+    border: 1px solid #af11ed30;
+    box-shadow: #af11ed50 0px 10px 40px;
+    color: #af11ed;
+    background-color: #fbf0ff;
 }
 
 .HowToInstall--span {
-    height: 50px;
-    color:  #00000060;
+    color:  #af11ed;
     font-size: 14px;
-    padding: 5px;
+    font-weight: 400;;
 }

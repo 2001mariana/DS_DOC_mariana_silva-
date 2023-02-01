@@ -13,12 +13,17 @@ function DSalurabook() {
   return (
     <div className="DSalurabook">
       
-    <HowToInstall />
+    
       <br />
-      <p className='DSalurabook--description'>
+      <ComponentVariable>
+        <HowToInstall />
+
+        <p className='DSalurabook--description'>
           Os ABcomponents foram criados para desenvolvimento do sistema alurabook durante um curso da Alura.
           Iniciam-se com AB para distinguir dos demais componentes que foram criados e estilizados a partir da minha imaginação e iniciativa.
-      </p>
+        </p>
+      </ComponentVariable>
+      
 
     <ComponentVariable
       title='Variações do ABbutton'
